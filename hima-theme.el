@@ -223,5 +223,17 @@
     ;; ledger
     `(ledger-font-xact-highlight-face ((t (:background ,lighter-gray))))))
 
+;;;###autoload
+(when load-file-name
+  (add-to-list
+   'custom-theme-load-path
+   (file-name-as-directory (file-name-directory load-file-name))))
+
+;;;###autoload
+(defun hima-theme()
+  "Load `hima-theme'."
+  (interactive)
+  (load-theme 'hima t))
+
 (provide-theme 'hima)
 ;;; hima-theme.el ends here
