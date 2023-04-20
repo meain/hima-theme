@@ -1,0 +1,19 @@
+name: test
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: purcell/setup-emacs@master
+      with:
+        version: 27.2
+    - uses: leotaku/elisp-check@master
+      with:
+        file: hima-theme.el
