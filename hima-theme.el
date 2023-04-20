@@ -1,7 +1,7 @@
 ;;; hima-theme.el --- A minimal theme with pretty colors -*- lexical-binding: t -*-
 
 ;; URL: https://github.com/meain/hima-theme
-;; Keywords: theme
+;; Keywords: faces
 ;; SPDX-License-Identifier: Apache-2.0
 ;; Package-Requires: ((emacs "25.1"))
 ;; Version: 0.1
@@ -199,7 +199,8 @@
     `(stripe-hl-line ((t (:background ,barely-orange))))
 
     ;; eldoc
-    `(eldoc-highlight-function-argument ((t (:foreground ,dark-blue))))
+    ;; https://github.com/purcell/package-lint/issues/187
+    (list 'eldoc-highlight-function-argument `((t (:foreground ,dark-blue))))
 
     ;; denote
     `(denote-faces-date ((t :foreground ,medium-gray)))
@@ -220,8 +221,7 @@
     `(scopeline-face ((t  (:foreground ,light-gray))))
 
     ;; ledger
-    `(ledger-font-xact-highlight-face ((t (:background ,lighter-gray))))
-    ))
+    `(ledger-font-xact-highlight-face ((t (:background ,lighter-gray))))))
 
 (provide-theme 'hima)
 ;;; hima-theme.el ends here
