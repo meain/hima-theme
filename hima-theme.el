@@ -29,7 +29,7 @@
        (dark-gray "#424242")
 
        (barely-orange "#EDE5CB")
-       ;; (lighter-orange "#F7C862")
+       (lighter-orange "#F7C862")
        ;; (light-orange "#FFAF00")
        (dark-orange "#E75600")
 
@@ -80,6 +80,7 @@
     `(cursor ((t (:background ,black))))
     `(fringe ((t (:background ,white :foreground ,medium-gray))))
     `(highlight ((t (:background ,light-blue))))
+    `(lazy-highlight ((t (:background ,barely-orange))))
     `(region ((t (:background ,lighter-blue :foreground ,black))))
     `(tooltip ((t (:background ,light-black :foreground ,medium-gray))))
     `(vertical-border ((t (:background ,lighter-gray :foreground ,lighter-gray))))
@@ -104,6 +105,10 @@
     `(font-lock-constant-face ,default-layer)
     `(font-lock-doc-face ,commentary-layer)
     `(font-lock-comment-face ,commentary-layer)
+
+    ;; evil-mode
+    `(evil-ex-substitute-matches ((t (:background ,barely-orange))))
+    `(evil-ex-substitute-replacement ((t (:background ,lighter-orange))))
 
     ;; show-paren
     `(show-paren-mismatch ,red-light-red-layer)
