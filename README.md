@@ -1,6 +1,13 @@
 <h1 align="center">❄ hima ❄</h1>
 <p align="center">A minimal Emacs theme with pretty colors</p>
 
+``` emacs-lisp
+(use-package hima-theme
+  :ensure t
+  :config 
+  (load-theme 'hima t))
+```
+
 |                                                                                                                                |                                                                                                                                 |
 | :----------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
 |  ![Screenshot of code](https://user-images.githubusercontent.com/14259816/232684701-eee69f02-f62f-4195-8869-cc2dd24e6683.png)  | ![Screenshot of notmuch](https://user-images.githubusercontent.com/14259816/232684858-846bf160-0eb6-4a26-830d-2af009c3f4f1.png) |
