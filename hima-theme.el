@@ -186,6 +186,9 @@
     `(tree-sitter-hl-face:function.method ,definition-layer)
     `(tree-sitter-hl-face:constructor ,definition-layer)
 
+    ;; sh-mode
+    `(sh-quoted-exec ,string-layer)
+
     ;; fancy-narrow
     `(fancy-narrow-blocked-face ,almost-invisible-layer)
 
@@ -224,6 +227,9 @@
 
     ;; scopeline
     `(scopeline-face ((t  (:foreground ,light-gray))))
+
+    ;; window-stool
+    `(window-stool-face ((t  (:background ,lighter-gray))))
 
     ;; ledger
     `(ledger-font-xact-highlight-face ((t (:background ,lighter-gray))))))
