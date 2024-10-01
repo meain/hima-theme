@@ -231,6 +231,14 @@
     ;; window-stool
     `(window-stool-face ((t  (:background ,lighter-gray))))
 
+    ;; auto-highlight-symbol
+    `(ahs-plugin-default-face ((t (:background ,lighter-gray))))
+    `(ahs-definition-face ((t (:background ,lighter-gray))))
+    `(ahs-face ((t (:background ,lighter-gray))))
+    `(ahs-plugin-default-face-unfocused ((t (:background ,lighter-gray))))
+    `(ahs-definition-face-unfocused ((t (:background ,lighter-gray))))
+    `(ahs-face-unfocused ((t (:background ,lighter-gray))))
+
     ;; ledger
     `(ledger-font-xact-highlight-face ((t (:background ,lighter-gray))))))
 
