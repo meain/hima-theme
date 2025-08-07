@@ -150,6 +150,7 @@
     `(vterm-color-white ((t (:foreground "#F5F5F5" :background "#FFFFFF"))))
     `(vterm-color-underline ,underline-layer)
 
+    ;; term
     `(term-color-black ((t (:foreground "#444444" :background "#969694"))))
     `(term-color-red ((t (:foreground "#9E0047" :background "#FF0072"))))
     `(term-color-green ((t (:foreground "#718C00" :background "#8EB200"))))
@@ -159,6 +160,24 @@
     `(term-color-cyan ((t (:foreground "#3E999F" :background "#51C8D1"))))
     `(term-color-white ((t (:foreground "#F5F5F5" :background "#FFFFFF"))))
     `(term-color-underline ,underline-layer)
+
+    ;; eat
+    `(eat-term-color-0 ((t (:foreground "#444444" :background "#444444"))))
+    `(eat-term-color-1 ((t (:foreground "#9e0047" :background "#9e0047"))))
+    `(eat-term-color-2 ((t (:foreground "#718C00" :background "#718C00"))))
+    `(eat-term-color-3 ((t (:foreground "#b25000" :background "#b25000"))))
+    `(eat-term-color-4 ((t (:foreground "#4271AE" :background "#4271AE"))))
+    `(eat-term-color-5 ((t (:foreground "#8959A8" :background "#8959A8"))))
+    `(eat-term-color-6 ((t (:foreground "#3E999F" :background "#3E999F"))))
+    `(eat-term-color-7 ((t (:foreground "#939393" :background "#939393"))))
+    `(eat-term-color-8 ((t (:foreground "#969694" :background "#969694"))))
+    `(eat-term-color-9 ((t (:foreground "#ff0072" :background "#ff0072"))))
+    `(eat-term-color-10 ((t (:foreground "#8eb200" :background "#8eb200"))))
+    `(eat-term-color-11 ((t (:foreground "#ff7200" :background "#ff7200"))))
+    `(eat-term-color-12 ((t (:foreground "#5ea2f9" :background "#5ea2f9"))))
+    `(eat-term-color-13 ((t (:foreground "#a56ccc" :background "#a56ccc"))))
+    `(eat-term-color-14 ((t (:foreground "#51c8d1" :background "#51c8d1"))))
+    `(eat-term-color-15 ((t (:foreground "#bcbcbc" :background "#bcbcbc"))))
 
     ;; magit
     `(diff-refine-removed ,reder-light-red-layer)
